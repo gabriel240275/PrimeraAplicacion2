@@ -111,4 +111,32 @@ public class FrmPrincipal extends javax.swing.JFrame {
     private javax.swing.JLabel lbNombre;
     private javax.swing.JTextField txtNombre;
     // End of variables declaration//GEN-END:variables
+
+    /**
+     * @return the descripcion
+     */
+    public String getDescripcion() {
+        return descripcion;
+    }
+
+    /**
+     * @param descripcion the descripcion to set
+     */
+    public void setDescripcion(String descripcion) {
+        this.descripcion = descripcion;
+    }
+
+    /**
+     * @return the poderacion
+     */
+    public int getPoderacion() {
+        return poderacion;
+    }
+
+    /**
+     * @param poderacion the poderacion to set
+     */
+    public void setPoderacion(int poderacion) {
+        this.poderacion = poderacion;
+    }
 }
